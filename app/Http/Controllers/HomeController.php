@@ -8,8 +8,6 @@ use App\Interfaces\UserRepositoryInterface;
 
 class HomeController extends Controller
 {
-    private UserRepositoryInterface $userRepository;
-
     /**
      * Create a new controller instance.
      *
